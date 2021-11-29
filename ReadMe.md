@@ -2,9 +2,10 @@
 Forces a user to join your group/channel so as to be able to message in a group.
 
 # Features
-- Checks for all newly joined members with a customisable welcome message.
-- Checks for users who are already in the group but has not joined the channel.
-
+```
+[-] Checks for all newly joined members with a customisable welcome message.
+[-] Checks for users who are already in the group but has not joined the channel.
+```
 # Variables
 - `API_ID` - Your telegram api id from my.telegram.org
 - `API_HASH` - Your telegram api hash from my.telegram.org

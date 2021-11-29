@@ -6,6 +6,9 @@ Forces a user to join your group/channel so as to be able to message in a group.
 [-] Checks for all newly joined members with a customisable welcome message.
 [-] Checks for users who are already in the group but has not joined the channel.
 ```
+# Deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 # Variables
 - `API_ID` - Your telegram api id from my.telegram.org
 - `API_HASH` - Your telegram api hash from my.telegram.org
@@ -17,6 +20,3 @@ Forces a user to join your group/channel so as to be able to message in a group.
 - `ON_NEW_MSG` - True/False - Set as True if the user must be muted, if not in Channel/group, on sending a message.
 
 Note: `WELCOME_MSG` and `WELCOME_NOT_JOINED` can both be formatted using parameters like `{mention}`, `{title}`, `{fullname}`, `{username}`, `{name}`, `{last}`, `{channel}`
-
-# Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)

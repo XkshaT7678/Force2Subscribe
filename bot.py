@@ -76,7 +76,7 @@ async def _(event):
         user = await event.get_user()
         chat = await event.get_chat()
         title = chat.title if chat.title else "this chat"
-        pp = await BotzHub.get_participants(chat)
+        pp = await Arjvps.get_participants(chat)
         count = len(pp)
         mention = f"[{get_display_name(user)}](tg://user?id={user.id})"
         name = user.first_name

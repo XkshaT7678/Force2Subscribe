@@ -1,15 +1,15 @@
 {
-    "name": "Force Sub Bot",
-    "description": "Python based bot to Force Users to sub a channel.",
+    "name": "Force Subscribe Bot",
+    "description": "Python based bot to Force Users to Join a channel.",
     "logo": "",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot"
     ],
-    "repository": "https://github.com/xditya/ForceSub",
-    "website": "xditya.me",
-    "success_url": "https://t.me/BotzHub",
+    "repository": "https://github.com/Akshat7678/Force2Subscribe",
+    "website": "",
+    "success_url": "https://t.me/TheArjvps",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
